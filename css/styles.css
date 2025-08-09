@@ -1,0 +1,14 @@
+:root{--primary:#6B7A4C;--bg:#F6F1E9;--ink:#2E2E2E;--line:#E6E0D6}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cairo',system-ui}
+.container{max-width:1100px;margin:auto;padding:0 16px}
+.site-header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line)}
+.header-inner{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:10px 0}
+.logo{height:44px}
+.search{width:100%;padding:10px;border:1px solid var(--line);border-radius:12px}
+.icons a{margin:0 6px;text-decoration:none}
+.hero{padding:28px 0;border-bottom:1px solid var(--line)}
+.btn-primary{background:var(--primary);color:#fff;border:none;border-radius:10px;padding:.8rem 1rem;display:inline-block;text-decoration:none}
+.products{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;padding:18px 0}
+.product-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:10px}
+.w-full{width:100%}
+.site-footer{border-top:1px solid var(--line);background:#fff;padding:16px 0;margin-top:20px}
